@@ -16,7 +16,7 @@ text = u'Hello, world!'
 # The target language
 target = 'ar'
 
-# Translates some text into Russian
+# Translates some text into Arabic
 translation = translate_client.translate(
     text,
     target_language=target)
