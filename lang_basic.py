@@ -12,9 +12,11 @@ from google.cloud import translate
 translate_client = translate.Client()
 
 # The text to translate
-text = input('Text to translate?')
+text = raw_input('Text to translate?')
+
 # The target language
-target = input('Digraph for Language?')
+#target = input('Digraph for Language?')
+target = 'ar'
 
 # Translates some text into Arabic
 translation = translate_client.translate(
