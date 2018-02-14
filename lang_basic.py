@@ -11,12 +11,14 @@ from google.cloud import translate
 # Instantiates a client
 translate_client = translate.Client()
 
-# The text to translate
+# The text to translate provided by the user
 text = raw_input('Text to translate?')
+# text = u'What do you mean?'
 
-# The target language
-#target = input('Digraph for Language?')
-target = 'ar'
+# The target language as a two letter language code
+# (e.g., en, ar, ru, fr, etc.)
+target = raw_input('Digraph for Language?')
+# target = 'ar'
 
 # Translates some text into Arabic
 translation = translate_client.translate(
