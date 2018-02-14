@@ -1,9 +1,12 @@
 #!/usr/bin/python
 
-# To authenticate, download your json keyfile from your account.
-# Once done, run the following command in a terminal, or set the
-# export in your ~/.bashrc or ~/.profile
+# To authenticate, to Google you will need to 
+# download your json keyfile from your account.
+# Once done, run the following command in a terminal:
 # export GOOGLE_APPLICATION_CREDENTIALS="/path/to/keyfile.json"
+#
+# Alternatively, set the export in your ~/.bashrc or ~/.profile
+################################################################
 
 # Imports the Google Cloud client library
 from google.cloud import translate
